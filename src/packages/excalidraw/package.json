@@ -1,6 +1,6 @@
 {
   "name": "@tig01er/excalidraw",
-  "version": "1.0.0",
+  "version": "version",
   "main": "main.js",
   "types": "types/packages/excalidraw/index.d.ts",
   "files": [
