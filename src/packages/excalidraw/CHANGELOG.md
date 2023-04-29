@@ -11,6 +11,37 @@ The change should be grouped under one of the below section and must contain PR 
 Please add the latest change on the top under the correct section.
 -->
 
+## Excalidraw Library
+
+**_This section lists the updates made to the excalidraw library and will not affect the integration._**
+
+### Features
+
+- Testing simple analytics and fathom analytics for better privacy of the users [#6529](https://github.com/excalidraw/excalidraw/pull/6529)
+
+- Retain `seed` on shift-paste [#6509](https://github.com/excalidraw/excalidraw/pull/6509)
+
+- Allow `avif`, `jfif`, `webp`, `bmp`, `ico` image types (#6500
+
+### Fixes
+
+- Don't refresh dimensions for text containers on font load [#6523](https://github.com/excalidraw/excalidraw/pull/6523)
+
+- Cleanup getMaxContainerHeight and getMaxContainerWidth [#6519](https://github.com/excalidraw/excalidraw/pull/6519)
+
+- Cleanup redrawTextBoundingBox [#6518](https://github.com/excalidraw/excalidraw/pull/6518)
+
+- Text jumps when editing on Android Chrome [#6503](https://github.com/excalidraw/excalidraw/pull/6503)
+
+### Styles
+
+- Fix font family inconsistencies [#6501](https://github.com/excalidraw/excalidraw/pull/6501)
+
+### Build
+
+- Add version tags to Docker build [#6508](https://github.com/excalidraw/excalidraw/pull/6508)
+
+---
 ## 0.15.2 (2023-04-20)
 
 ### Docs
